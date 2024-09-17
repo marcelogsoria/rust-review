@@ -1,0 +1,22 @@
+{
+  "name": "fastify-typescript-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "@commercetools/platform-sdk": "^7.13.0",
+    "fastify": "^4.28.1",
+    "ts-node": "^10.9.2"
+  }
+}
