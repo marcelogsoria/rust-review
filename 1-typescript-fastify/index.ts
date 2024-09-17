@@ -3,8 +3,8 @@ import { createCommercetoolsClient } from './ctClient';
 
 const server = fastify();
 
-const clientId = 'BJ_5OQdxbb4K8Y_fpO4yLTSV';
-const clientSecret = 'Bn75YSNN70Yr8fdkPjtMN08v8-CAoQVL';
+const clientId = '';
+const clientSecret = '';
 const projectKey = 'test-marcelo-soria';
 const oauthHost = 'https://auth.us-central1.gcp.commercetools.com';
 const host = 'https://api.us-central1.gcp.commercetools.com';

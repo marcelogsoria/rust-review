@@ -75,8 +75,8 @@ async fn index(token: &State<CtToken>) -> &'static str {
 
 #[launch]
 async fn rocket() -> _ {
-    let username = "BJ_5OQdxbb4K8Y_fpO4yLTSV";
-    let password: Option<String> = Some("Bn75YSNN70Yr8fdkPjtMN08v8-CAoQVL".to_string());
+    let username = "";
+    let password: Option<String> = Some("".to_string());
     let client = reqwest::Client::builder().no_gzip().build().unwrap();
     let response = client
     .post("https://auth.us-central1.gcp.commercetools.com/oauth/token?grant_type=client_credentials&scope=manage_project:test-marcelo-soria")
